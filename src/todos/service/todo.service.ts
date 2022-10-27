@@ -1,8 +1,8 @@
 import { CreateTodoDto } from './../dto/createTodo.dto';
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/sequelize';
-import Todo from '../entity/todo.entity';
 import { User } from 'src/users/models/user.model';
+import Todo from '../models/todo.model';
 
 @Injectable()
 export class TodoService {
